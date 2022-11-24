@@ -1,0 +1,60 @@
+/* add-book-form */
+
+.add-book-form {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .add-book-form {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.add-book-form label {
+    color: #2ed573;
+    margin-bottom: 5px;
+}
+
+.add-book-form form .add-book-Input {
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.add-book-form form textarea {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+.add-book-form form .addBook-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #130f40;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    transition: all 0.5s;
+}
+
+.add-book-form form .addBook-btn:hover {
+    background-color: #f53b57;
+}

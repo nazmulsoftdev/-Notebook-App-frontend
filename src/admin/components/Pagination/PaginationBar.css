@@ -1,0 +1,18 @@
+/* pagination-container */
+
+.pagination-container {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .pagination-container {
+        width: 100%;
+        text-align: center;
+    }
+}

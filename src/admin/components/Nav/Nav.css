@@ -1,0 +1,49 @@
+/* Nav-container */
+
+.Nav-container {
+    height: 100%;
+    position: absolute;
+    /* From https://css.glass */
+    background: rgba(255, 254, 254, 0.33);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+}
+
+
+/* NavToggle-Icon */
+
+.NavToggle-Icon {
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #192a56;
+}
+
+
+/* Nav-content */
+
+.Nav-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Nav-content a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .nav-item {
+        display: none;
+    }
+}

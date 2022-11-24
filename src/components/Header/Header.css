@@ -1,0 +1,42 @@
+/* Header-container */
+
+.Header-container {
+    width: 100%;
+}
+
+
+/* header-content */
+
+.header-content {
+    width: 80%;
+    margin: auto;
+}
+
+.Fox-logo {
+    cursor: pointer;
+    float: left;
+    padding: 0.6em 1em;
+}
+
+.get-started-btn {
+    background-color: #eb3b5a;
+    padding: 0.6em 1em;
+    border-radius: 15px;
+    color: #f9f9f9;
+    border: 0;
+    cursor: pointer;
+    margin: 1em;
+    float: right;
+    transition: all 1s;
+}
+
+.get-started-btn:hover {
+    background-color: #20bf6b;
+    color: #ffff;
+}
+
+@media screen and (max-width: 600px) {
+    .header-content {
+        width: 100%;
+    }
+}
